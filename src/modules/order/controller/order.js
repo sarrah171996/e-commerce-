@@ -3,7 +3,7 @@ import { asyncHandler } from "../../../utils/errorHandling.js"
 import productModel from "../../../../DB/model/product.model.js"
 import couponModel from "../../../../DB/model/Coupon.model.js"
 import orderModel from "../../../../DB/model/Order.model.js"
-import cartModel from "../../../../DB/model/Cart.model.js"
+import cartModel from "../../../../DB/model/cart.model.js"
 import { deleteItemsFromCart } from "../../cart/controller/cart.js"
 import { createInvoice } from "../../../utils/pdf.js"
 // import { createInvoice } from './src/utils/pdf.js'
