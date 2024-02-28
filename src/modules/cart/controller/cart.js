@@ -1,4 +1,4 @@
-import cartModel from "../../../../DB/model/Cart.model.js"
+import cartModel from "../../../../DB/model/cart.model.js"
 import productModel from "../../../../DB/model/product.model.js"
 import { asyncHandler } from "../../../utils/errorHandling.js"
 
