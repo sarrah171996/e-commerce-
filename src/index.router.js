@@ -22,7 +22,8 @@ const initApp = (app, express) => {
     //Setup API Routing 
     // app.use('/' , (req, res, next) => {
     //     res.send("welcom in ourt e-commerce")
-    // } )
+    // } ) 
+    
     app.use(`/auth`, authRouter)
     app.use(`/user`, userRouter)
     app.use(`/product`, productRouter)
